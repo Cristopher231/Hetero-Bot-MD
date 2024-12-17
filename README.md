@@ -1,7 +1,8 @@
-src="https://img.shields.io/badge/¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙃𝙀𝙏𝙀𝙍𝙊𝙎 𝘽𝙊𝙏 ¨˜ˆ”°⍣~•✡⊹٭„¸ | 🔥Cristopher231🔥 |/colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
+<p align="center">
+<a href="#"><img title="Hetero-Bot-MD" src="https://img.shields.io/badge/¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙃𝙀𝙏𝙀𝙍𝙊𝙎 𝘽𝙊𝙏 ¨˜ˆ”°⍣~•✡⊹٭„¸ | 🔥Cristopher231🔥 |/colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Samu330"><img title="Author" src="https://img.shields.io/badge/author-Samu330-green?colorA=%00ff00style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Cristopher231"><img title="Author" src="https://img.shields.io/badge/author-Cristopher231-green?colorA=%00ff00style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue?colorA=%23ff0000&colorB=%230000ff&style=for-the-badge"</a>
@@ -9,7 +10,7 @@ src="https://img.shields.io/badge/¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙃𝙀𝙏�
 <p align="center">
 <img src="https://www.crackingpro.com/uploads/team_VIP.gif" width="200" height="80"/>
 </p>
-<img src="https://i.imgur.com/n1zo2wL.gif" width="30" height="30"/> █▓▒­░⡷⠂ H̳E̳T̳E̳R̳O̳S̳ ̳B̳O̳T̳ ⠐⢾░▒▓█
+<img src="https://i.imgur.com/n1zo2wL.gif" width="30" height="30"/> █▓▒­░⡷⠂ H̳E̳T̳E̳R̳O̳ ̳B̳O̳T̳ ⠐⢾░▒▓█
 </p>
 <br /> 
 ----
