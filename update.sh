@@ -1,8 +1,8 @@
-# Código desarrollado por @gata_dios 
+# Código desarrollado por @gata_dios modificado por @cristopher231 
   
 #!/data/data/com.termux/files/usr/bin/bash 
-BOT_DIR="GataBot-MD"  
-BOT_REPO="https://github.com/GataNina-Li/$BOT_DIR"
+BOT_DIR="Hetero-Bpt-MD"  
+BOT_REPO="https://github.com/Cristopher231/Hetero-Bot-MD/$BOT_DIR"
 DB_FILE="database.json"
  
 GREEN='\033[32m'
