@@ -1,5 +1,5 @@
 <p align="center">
-<a href="#"><img title="Hetero-Bot-MD" src="https://img.shields.io/badge/¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙃𝙀𝙏𝙀𝙍𝙊𝙎 𝘽𝙊𝙏 ¨˜ˆ”°⍣~•✡⊹٭„¸ | 🔥Cristopher231🔥 |/colorA=%23ff0000&colorB=%23000000&style=for-the-badge"></a>
+<a href="#"><img title="Hetero-Bot-MD" src="https://img.shields.io/badge/¸„٭⊹✡•~⍣°”ˆ˜¨ 𝙃𝙀𝙏𝙀𝙍𝙊𝙎 𝘽𝙊𝙏 ¨˜ˆ”°⍣~•✡⊹٭„¸ | 🔥Cristopher231🔥 |/colorA=%23ff0000&colorB=%23000000&style="for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Cristopher231"><img title="Author" src="https://img.shields.io/badge/author-Cristopher231-green?colorA=%00ff00style=for-the-badge&logo=github"></a>
