@@ -18,33 +18,7 @@ let txt = `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* �
 
 ¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
 
-🖥️ *Totalmente compatible con GataBot:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de GataBot y CorinPlus Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
-
-🟢 \`\`\`Información del Host\`\`\`
-
-💻 *Página:*
-https://dash.skyultraplus.com
-
-*🟢 Dashboard:*
-https://dash.skyultraplus.com
-
-⚙️ *Panel*
-https://panel.skyultraplus.com
-
-💥 *Comunidad de WhatsApp:*
-https://chat.whatsapp.com/KGPhTIfgOzZCMNqoc3R7OW
-
-*🟣 Discord:*
-https://discord.gg/zvKgtc2RBc
-
-🧡 *Canal de WhatsApp:*
-https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
-
-🗣📲 *Contacto:*
-• wa.me/5214531287294
-• wa.me/15167096032
-• wa.me/573147616444
-• https://www.facebook.com/elrebelde21
+🖥️ *Totalmente compatible con Hetero-Bot-MD:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia fluida y de alta calidad. El staff de Hetero-Bot-MD y CorinPlus Host se encarga de que disfrutes de todas sus funciones al máximo. 😺✨
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
 
@@ -60,12 +34,6 @@ isForwarded: true,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `🤖 𝐒𝐊𝐘𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 🤖`,
-body: `¡El plus que necesitas!_`,
-"previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/wXciz.jpg', 
-sourceUrl: accountsgb}}},
-{ quoted: fkontak})
 } 
  
 if (/^bot$/i.test(m.text)) {
@@ -79,7 +47,7 @@ let teks = `${pickRandom([`Que bueno sabe la letra E`, `eeeeee`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}
 
 /*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
-let teks = `${pickRandom([`no puedo esta contra las política del grupo.😸`, `_uff miren un pajero_`, `_pagame y paso mi pack😏🥵_`, `_que_`, `_que quiere pija dice 🤣_`, `_pasa el pack de tu hermana😏_`, `_mire un gilipolla_`, `_siuuu sexo sexo sexo😈_`, '_callate putito_'])}`.trim()
+let teks = `${pickRandom([`_uff miren un pajero_`, `_Deja la paja brother_`, `_que_`, `_Deja de buscar PORNO MANOO att Cristopher231_`, `_busca mejor xnxx o pornhub en google_`, `_siuuu sexo sexo sexo😈_`])}`.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})}*/
 
 if (/^reglas|normas|Reglas$/i.test(m.text) ) { //sin prefijo 
@@ -102,26 +70,9 @@ conn.reply(m.chat,  `\`⚡¿Quieres un bot para tu grupo?\`
 
 *💖 Puedes solicitarlo haciendo una donación voluntaria a través de PayPal o Mercado Pago arg.*
 
-> 🚀 El bot estará activo 24/7 para tu grupo.
-
-\`⚡ ¿Por dónde puedo donar?\`
-> A través de nuestro PayPal o Mercado Pago.
-
-*❇️PayPal:*
-• https://www.paypal.com/paypalme/OficialGD
-
-*❇️Mercado pago:*
-
-*• Alias :* OficialGB
-*• CVU :* 0000003100059201491917
+> 🚀 El bot estará activo 24/7 para tu grupo
 
 \`⏩ Siguiente paso ⏩\`
-
-> Una vez realizado el pago, puedes enviar un comprobante de envío del dinero (captura de pantalla) para que pueda agregar el bot a tu grupo:
-
-• https://chat.whatsapp.com/FDRfhecUGrCEQswkg8FUYz
-• ${ig}
-• https://www.facebook.com/elrebelde21
 
 \`⚡ ¿El bot estará activo 24/7?\`
 _*Sí, nuestro bot está alojado en un servidor de pago para mantenerlo activo 24/7 (por eso también solicitamos donaciones para mantenerlo en funcionamiento) 💞*_
