@@ -1,20 +1,32 @@
-import fs from 'fs'
 import yaoiImages from 'module-gatadios'
 
 let handler = async (m, { conn }) => {
-const resultJson = yaoiImages.getRandomImage()
+  try {
+    const resultJson = yaoiImages.getRandomImage()
+    
+    // Validar que existe la respuesta
+    if (!resultJson) throw new Error('No se pudo obtener la imagen')
 
-let txt
-txt = `
-Nombre: ${resultJson.name}
+    // Validar propiedades necesarias
+    const name = resultJson.name || 'Sin nombre'
+    const author = resultJson.author || 'Autor desconocido' 
+    const description = resultJson.description || 'Sin descripción'
 
-Autor: ${resultJson.author}
+    let txt = `
+Nombre: ${name}
+Autor: ${author}
+Descripción: ${description}`
 
-Descripción: ${resultJson.description}`
-  
-//conn.sendMessage(m.chat, {image: {url: resultJson.link}, caption: txt.trim()}, {quoted: m})
-conn.sendEventV2(m.chat, "Text", "Descripción", "Toca para ver más", false)
-  
+    // Asumiendo que sendMessage es el método correcto
+    await conn.sendMessage(m.chat, {
+      image: {url: resultJson.link}, 
+      caption: txt.trim()
+    }, {quoted: m})
+
+  } catch (error) {
+    console.error(error)
+    m.reply('Ocurrió un error al procesar la solicitud')
+  }
 }
 
 handler.command = /^(prueba36)$/i
