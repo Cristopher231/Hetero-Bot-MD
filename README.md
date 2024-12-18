@@ -48,7 +48,7 @@ cd && cd Hetero-Bot-MD && npm start
 ```
 ----
 ### ✳️ OBTENER OTRO CODIGO QR EN TERMUX
-> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `GataBot-MD $`*
+> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `Hetero-Bot-MD $`*
 > **Escribe los siguientes comando uno x uno :**
 ```bash 
 cd && cd Hetero-Bot-MD && rm -rf GataBotSession && npm run qr
