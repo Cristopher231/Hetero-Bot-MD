@@ -26,7 +26,7 @@ say('Hetero-\nBot-\nMD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Por GataDios`, {
+say(`Por Cristopher231🗿`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
