@@ -36,7 +36,7 @@ if (command == 'play' || command == 'audio') {
 try {    
 let q = '128kbps'
 const yt = await youtubedl(yt_play[0].url).catch(() => youtubedlv2(yt_play[0].url))
-await conn.sendFile(m.chat, await yt.audio[q].download(), `${await yt.title}.mp3`, null, m, false, { mimetype: 'audio/mp4' })
+await conn.sendFile(m.chat, await yt.audio[q].download(), `${await yt.title}.mp3`, null, m, false, { mimetype: 'audio/mp3' })
 } catch (e) {
 try {
 const res = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${yt_play[0].url}`)
@@ -253,7 +253,7 @@ throw new Error("No se pudo obtener información del video desde Invidious")
 }}
 
 function getBestVideoQuality(videoData) {
-const preferredQualities = ['720p', '360p', 'auto']
+const preferredQualities = ['720p', '360p', '1080p']
 const availableQualities = Object.keys(videoData.video)
 for (let quality of preferredQualities) {
 if (availableQualities.includes(quality)) {
