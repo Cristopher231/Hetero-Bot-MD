@@ -25,19 +25,19 @@ echo -e "${GREEN}╰━━━━━━━━━━━━━━━━━━━━
 
 # Actualizar paquetes de termux
 echo "🔄 Actualizando paquetes..."
-pkg update -y && pkg upgrade -y
+pkg update -y && pkg upgrade -y || handle_error "Fallo al actualizar paquetes."
 
 # Instalar dependencias necesarias
 echo "📦 Instalando dependencias del sistema..."
-pkg install -y nodejs git ffmpeg imagemagick python yarn
+pkg install -y nodejs git ffmpeg imagemagick python yarn || handle_error "Fallo al instalar dependencias."
 
 # Limpiar caché de npm
 echo "🧹 Limpiando caché de npm..."
-npm cache clean -f
+npm cache clean -f || handle_error "Fallo al limpiar caché de npm."
 
 # Actualizar npm
 echo "⬆️ Actualizando npm..."
-npm install -g npm@latest
+npm install -g npm@latest || handle_error "Fallo al actualizar npm."
 
 # Eliminar instalaciones previas
 if [ -d "node_modules" ]; then
@@ -49,24 +49,21 @@ fi
 
 # Instalar dependencias usando yarn
 echo "📥 Instalando dependencias con yarn..."
-yarn install --ignore-scripts --network-timeout 100000
-
-# Si yarn falla, intentar con npm
-if [ $? -ne 0 ]; then
+yarn install --ignore-scripts --network-timeout 100000 || {
     echo "⚠️ Yarn falló, intentando con npm..."
-    npm install --force --legacy-peer-deps
+    npm install --force --legacy-peer-deps || handle_error "Fallo al instalar dependencias con npm."
 
     # Instalar dependencias específicas que pueden causar problemas
-    npm install --force @whiskeysockets/baileys
-    npm install --force sharp
-    npm install --force @adiwajshing/baileys
-    npm install --force cfonts
-    npm install --force libvips
-fi
+    npm install --force @whiskeysockets/baileys || handle_error "Fallo al instalar @whiskeysockets/baileys."
+    npm install --force sharp || handle_error "Fallo al instalar sharp."
+    npm install --force @adiwajshing/baileys || handle_error "Fallo al instalar @adiwajshing/baileys."
+    npm install --force cfonts || handle_error "Fallo al instalar cfonts."
+    npm install --force libvips || handle_error "Fallo al instalar libvips."
+}
 
 # Instalar dependencias globales necesarias
 echo "🔧 Instalando dependencias globales..."
-npm install -g pm2 typescript ts-node
+npm install -g pm2 typescript ts-node || handle_error "Fallo al instalar dependencias globales."
 
 echo -e "${GREEN}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮${NC}"
 echo -e "${GREEN}┃ 🚀 INICIANDO HETERO-BOT-MD...${NC}"
@@ -74,6 +71,4 @@ echo -e "${GREEN}┃ By cristopher231${NC}"
 echo -e "${GREEN}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯${NC}"
 
 # Iniciar el bot
-if ! npm start; then
-    handle_error "No se pudo iniciar Hetero-Bot-MD. Por favor, revisa los logs anteriores."
-fi
+npm start || handle_error "No se pudo iniciar Hetero-Bot-MD. Por favor, revisa los logs anteriores."
